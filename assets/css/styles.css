@@ -113,6 +113,7 @@ h2 {
 
 #transform-world {
     background: url('../images/woman-code.png');
+    display: flex;
     height: 363px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,9 +127,9 @@ h2 {
     text-transform: lowercase;
     font-size: 40px;
     text-shadow: 3px 3px #33A8DB;
-    width: 250px;
+    max-width: 250px;
     text-align: left;
-    padding-top: 5.5%;
+    margin: auto;
     margin-left: 10%;
 }
 
